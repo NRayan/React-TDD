@@ -1,0 +1,68 @@
+.container {
+    width: 100%;
+    row-gap: 30px;
+    padding: 20px 50px;
+}
+
+.buttons-container {
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    column-gap: 10px;
+}
+
+input {
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .05);
+    background-color: transparent;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 20px;
+    background-color: #555;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    background-color: rgba(255, 255, 255, .03);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, .04);
+}
+
+table span {
+    display: block;
+    margin: 15px 0;
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, .04);
+    padding: 5px;
+    margin: 0;
+    border-spacing: 0;
+}
+
+.td-center {
+    text-align: center;
+}
+
+thead {
+    height: 35px;
+    font-size: 18px;
+}
