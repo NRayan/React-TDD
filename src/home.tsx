@@ -28,6 +28,8 @@ export function Home() {
     }
 
     setUsers([...users, newUser]);
+
+    
   }
 
   function handleRemoveButtonClicked(id: number) {
